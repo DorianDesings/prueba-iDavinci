@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import CallCard from "./components/CallCard.vue";
-import Button from "./components/Button.vue";
+import CallCard from "../components/CallCard.vue";
+import Button from "../components/Button.vue";
 
 export default {
   name: "app",
