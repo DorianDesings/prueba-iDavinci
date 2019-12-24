@@ -38,11 +38,6 @@ export default {
         console.log(error);
       }
     }
-  },
-  computed: {
-    calculateTotalScore(score, userScore) {
-      return score * userScore;
-    }
   }
 };
 </script>

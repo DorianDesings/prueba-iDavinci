@@ -7,7 +7,6 @@ export default {
   name: "Button",
   methods: {
     handleClick() {
-      // calculateTotalScore(merit.score, merit.userScore);
       this.$store.commit("calculateTotalScore");
     }
   }
