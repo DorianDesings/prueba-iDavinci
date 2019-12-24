@@ -25,6 +25,9 @@ export default {
   font-family: sans-serif;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (min-width: 1024px) {
+    width: 750px;
+  }
 }
 
 .title {
